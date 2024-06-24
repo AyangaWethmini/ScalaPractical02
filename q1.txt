@@ -1,0 +1,7 @@
+Java VS Scala
+ 1) Java is a general purpose Object Oriented language , Scala is both object oriented and functional programming language.
+ 2)Scala is Less readable due to nested code, Java is more readable.
+ 3)Scala supports operator overloading and Java does not
+ 4)Scala is not backward compatible, Java is.
+ 5)Scala does not contain static keyword. java does.
+ Scala code is written in compact code while java code is written in long form.
