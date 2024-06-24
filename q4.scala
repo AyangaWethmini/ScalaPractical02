@@ -15,11 +15,18 @@ object question04 extends App {
   def calculateprofit(tPrice: Int): Double = {
     var n = calculateAttendance(tPrice);
     var cost = calculateCost(n)
-
+    printf(s"ticket price : ${tPrice} - ")
     return n * tPrice - cost;
   }
 
+  
+  println(s"Profit made : ${calculateprofit(5)}")
+  println(s"Profit made : ${calculateprofit(10)}")
   println(s"Profit made : ${calculateprofit(15)}")
   println(s"Profit made : ${calculateprofit(20)}")
-  println(s"Profit made : ${calculateprofit(10)}")
+  println(s"Profit made : ${calculateprofit(25)}")
+  println(s"Profit made : ${calculateprofit(30)}")
+  println(s"Profit made : ${calculateprofit(35)}")
+  println(s"Profit made : ${calculateprofit(40)}")
+  
 }
