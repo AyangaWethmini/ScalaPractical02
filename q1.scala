@@ -10,7 +10,7 @@ object tutorial extends App {
   println(s"n % j = ${n % j}")
   println(s"m / j * j = ${m / j * j}")
   println(s"f + 10 * 5 + g = ${f + 10 * 5 + g}")
-  //println(s"++i * n = ${i * n}")
+  println(s"++i * n = ${i * n}")
   /*
         ++ operator is not available in scala so this line of code generates an error
         instead we can use i += 1
